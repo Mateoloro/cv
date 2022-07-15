@@ -1,27 +1,59 @@
+/******************************SELECTORS************************************/
   body{
-  background-color: #C4D7E0;
+  background-color: #ebe6ea;
   }
 
   hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #F8F9D7;
+    border-color: #e4c5c4;
     border-width: 5px;
     width: 5%;
   }
 
   h1{
-    color: #6E85B7;
     font-family: "Brush Script MT", cursive;
   }
   h2{
-    color: #6E85B7;
     font-family: "Brush Script MT", cursive;
   }
   h3{
     font-family: "Brush Script MT", cursive;
-    color: #6E85B7;
   }
   p{
     font-family: "Garamond", serif;
   }
+  strong{
+    color: #273a2d;
+  }
+
+  button:hover{
+    color: #6f7357;
+    text-shadow: 1px 1px 2px black;
+  }
+
+/******************************CLASSES************************************/
+.centerText{
+  textal: center;
+}
+.colorTitles{
+  color: #6f7357;
+}
+
+.tableStyle{
+  background-color: #e4c5c4;
+  border-style: dashed;
+  border-color: #0c181c;
+}
+
+.button-primaries{
+  width: 100px;
+  height: 100px;
+  color: blue;
+  border-color: #6f7357;
+  border-style: dashed;
+  margin-top: 10px;
+  vertical-align: middle;
+  background-color: #e4c5c4;
+  border-radius: 100%;
+}
